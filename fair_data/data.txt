@@ -1,0 +1,4 @@
+
+Download data from inside 
+
+https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/data inside subfolder jigsaw-unintended-bias-in-toxicity-classification
