@@ -18,14 +18,16 @@ These models are available at Wiki_toxicity_fairness-stacked-lstm-cnn.ipynb
 
 It further contains integration with
 
-6. BERT in toxicity_classification_fainess_bert.ipynb
+6. BERT in toxicity_classification_fainess_bert.ipynb  
+
+Note : Since creating bert embeddings and tokenizing them takes time, we have limited training to 5000 data points. Of course this can ve extended to full dataset.
 
 
 How to Download the data?
 
 1. Ensure you have a folder called fair_data in inside the main repo
 2. Create a sub-folder jigsaw-unintended-bias-in-toxicity-classification 
-3. Download data from https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/data
+3. Download data from https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/data . In the scope of this POC, we limit data training only from train.csv ie. 50% for training and remaining 50% for training and validation, yielding to 902437 training points and 451219 points for each testing and validation. 
 
 
 For Bert models:
