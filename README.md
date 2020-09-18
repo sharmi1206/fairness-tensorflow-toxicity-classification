@@ -38,3 +38,11 @@ Ensure you are downloading the model and the following lines are uncommneted.
 !unzip uncased_L-12_H-768_A-12.zip
 os.makedirs("model", exist_ok=True)
 !mv uncased_L-12_H-768_A-12/ model
+
+Ensure you are training the bert model using:
+
+model = multi_cls_create_model(max_seq_len=128, bert_ckpt_file). 
+
+If model is set to  something else, reset to bert model
+
+
